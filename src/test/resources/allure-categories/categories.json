@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Errores de Aplicación",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*Error de aplicación.*"
+  },
+  {
+    "name": "Errores de Prueba",
+    "matchedStatuses": ["broken"],
+    "messageRegex": ".*AssertionError.*"
+  },
+  {
+    "name": "Defectos Menores",
+    "matchedStatuses": ["skipped"]
+  }
+]
